@@ -1,0 +1,276 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+/*navbar properties*/
+.navbar{
+    height:700px;
+    width:100%;
+    background-image:url("./assets/universe1.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+.container{
+    color:white;  
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    padding-top:10px;
+}
+.logo{
+    font-size:25px;
+    font-family:sans-serif;
+    text-transform:uppercase;
+    padding-right:700px;
+    padding-left:15px;
+}
+.logo:hover{
+    color:rgb(159, 110, 223);
+}
+a{
+padding-top:5px;
+text-decoration:none;
+color:white;
+font-size:15px;
+font-family: sans-serif;
+}
+/*mouse over link*/
+a:hover{
+    color:rgb(159, 110, 223);
+}
+button{
+    padding:10px 20px;
+    border-radius:10px;
+    border:2px solid #969DC0;
+    margin-right:10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:black;
+    color:white;
+   /* border-color:transparent;*/
+}
+button:hover{
+    background-color:#5079FF;
+    color:black;
+}
+/*hero-section*/
+h1{
+    color:white;
+    text-align:center;
+    padding-top:50px;
+    font-weight:700;
+    font-size: 45px;
+    font-family:'Times New Roman', Times, serif;
+}
+span{
+    color:#5079FF;
+}
+/*explore-now button*/
+.explore-button{
+    margin-left:570px;
+    margin-top:400px;
+    padding:20px 45px;
+    border-radius:8px;
+    font-size:17px;
+    border-color:transparent;
+}
+/*section-light*/
+.section-light{
+    height:450px;
+    width:100;
+    background-color: #2C283B;
+}
+.container2{
+    padding-top:39px;
+    display:flex;
+    justify-content:space-evenly;
+}
+.card1{
+    height:300px;
+    width:250px;
+    border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+    background-color:rgb(75, 74, 74);
+    background-image:url("./assets/card1.jpg");
+    background-size:250px;
+    background-repeat:no-repeat;
+    
+}
+.card1:hover{
+    transform:scale(1.1);
+}
+
+.card2{
+    height:300px;
+    width:250px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+      background-color:rgb(75, 74, 74);
+      background-image:url("./assets/card2.jpg");
+      background-size:250px;
+      background-repeat:no-repeat;
+}
+.card2:hover{
+    transform:scale(1.1);
+}
+.card3{
+    height:300px;
+    width:250px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+      background-color:rgb(75, 74, 74);
+      background-image:url("./assets/card3.jpg");
+      background-size:250px;
+      background-repeat:no-repeat;
+}
+.card3:hover{
+    transform:scale(1.1);
+}
+#p1{
+    padding-top:200px;
+    color:white;
+    font-size:19px;
+    font-weight:600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:center;
+}
+#p2{
+    padding-top:200px;
+    color:white;
+    font-size:17px;
+    font-weight:600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:center;
+}
+#p3{
+    padding-top:200px;
+    color:white;
+    font-size:17px;
+    font-weight:600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:center;
+}
+.fa-arrow-right{
+    padding-left:30px;
+    padding-right:50px;
+    padding-top:30px;
+    font-size:30px;
+}
+/*hero-section2*/
+.hero-section2{
+    height:600px;
+    background-image:url("./assets/universe2.jpg");
+    background-size:cover;
+    background-position:center;
+    padding-top:250px;
+    display: flex;
+    justify-content:center;
+    
+}
+.bg-text:hover{
+   background-color:#2d003d;
+}
+.bg-text{
+    height:120px;
+    width:550px;
+    background-color:#2C283B;
+}
+.text{
+    padding:45px 30px;
+   text-align:center;
+    color:white;
+    font-size:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius:5px;
+}
+/*section-float-text*/
+.section-float-text{
+    height:300px;
+}
+.container3{
+    padding-top:50px;
+    width:80%;
+    margin-left:300px;  
+    
+}
+.leftcontent{
+    float:left;
+    width:50%;
+    padding-right:20px;
+}
+.rightcontent{
+    float:right;
+    width:50%;
+}
+
+/*hero-section3*/
+.hero-section-3{
+    height:600px;
+    background-image:url("./assets/universe3.jpg");
+    background-size:cover;
+    background-position:center;
+    padding-top:250px;
+    display: flex;
+    justify-content:center;
+    
+}
+.bg-text-2{
+    height:120px;
+    width:550px;
+    background-color:rgb(44, 44, 44);
+}
+.text-2{
+    color:white;
+    text-align:center;
+    padding-top:60px;
+    font-size:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:600;
+}
+/*section-float-text2*/
+.section-float-text-2{
+    height:300px;
+}
+.container4{
+    width:80%;
+    margin-left:160px;
+    padding-top:50px;
+}
+.left-content{
+    float:left;
+    width:10%;
+    margin-left:50px;
+
+}
+.right-content{
+    float:right;
+    width:70%;
+    padding-top:100px;
+}
+/*last-section*/
+.last-section{
+    height:600px;
+    width:100%;
+    background-image:url("./assets/universe1.jpg");
+    background-size:cover;
+    background-position:center;
+}
+/*Credits*/
+.credits{
+    text-align:center;
+    background-color:#000000;
+}
+.credits span{
+    color:white;
+}
+.fa-face-sunglasses{
+    color:white;
+}
+/****THANK YOU*****/
